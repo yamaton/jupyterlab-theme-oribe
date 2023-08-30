@@ -1,0 +1,19 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.2.0
+_src_path: https://github.com/jupyterlab/extension-template
+author_email: yamaton@gmail.com
+author_name: Yamato Matsuoka
+data_format: string
+file_extension: ''
+has_binder: true
+has_settings: false
+kind: theme
+labextension_name: jupyterlab-theme-oribe
+mimetype: ''
+mimetype_name: ''
+project_short_description: A JupyterLab Oribe-style theme extension.
+python_name: jupyterlab_theme_oribe
+repository: https://github.com/yamaton/jupyterlab-theme-oribe
+test: true
+viewer_name: ''
+

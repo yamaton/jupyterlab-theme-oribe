@@ -1,0 +1,142 @@
+:root {
+  --jp-shadow-base-lightness: 32;
+
+  /* Borders */
+  --jp-border-color0: #49483E;
+  --jp-border-color1: #49483E;
+  --jp-border-color2: #3E3D32;
+  --jp-border-color3: #272822;
+
+  /* UI Font Colors */
+  --jp-ui-font-color0: #F8F8F2;
+  --jp-ui-font-color1: #E6E6DC;
+  --jp-ui-font-color2: #C2C2B6;
+  --jp-ui-font-color3: #8F8F82;
+
+  /* UI Inverse Font Colors */
+  --jp-ui-inverse-font-color0: #272822;
+  --jp-ui-inverse-font-color1: #3E3D32;
+  --jp-ui-inverse-font-color2: #49483E;
+  --jp-ui-inverse-font-color3: #75715E;
+
+  /* Content Font Colors */
+  --jp-content-font-color0: #F8F8F2;
+  --jp-content-font-color1: #F8F8F2;
+  --jp-content-font-color2: #C2C2B6;
+  --jp-content-font-color3: #8F8F82;
+
+  /* Layout */
+  --jp-layout-color0: #272822;
+  --jp-layout-color1: #3E3D32;
+  --jp-layout-color2: #49483E;
+  --jp-layout-color3: #75715E;
+
+  /* Inverse Layout */
+  --jp-inverse-layout-color0: #F8F8F2;
+  --jp-inverse-layout-color1: #E6E6DC;
+  --jp-inverse-layout-color2: #C2C2B6;
+  --jp-inverse-layout-color3: #8F8F82;
+  --jp-inverse-layout-color4: #75715E;
+
+  /* Brand/Accent */
+  --jp-brand-color0: #375f67;
+  --jp-brand-color1: #7d9748;
+  --jp-brand-color2: #765b3d;
+  --jp-brand-color3: #80465b;
+  --jp-brand-color4: #534271;
+  --jp-accent-color0: #AE81FF;
+  --jp-accent-color1: #A6E22E;
+  --jp-accent-color2: #FD971F;
+  --jp-accent-color3: #F92672;
+
+  /* State Colors */
+  --jp-warn-color0: #E69F00;
+  --jp-warn-color1: #F4BF75;
+  --jp-warn-color2: #F5D189;
+  --jp-warn-color3: #F8E6A0;
+  --jp-error-color0: #F92672;
+  --jp-error-color1: #FD618A;
+  --jp-error-color2: #FE8595;
+  --jp-error-color3: #FFA7B3;
+  --jp-success-color0: #A6E22E;
+  --jp-success-color1: #BEED5F;
+  --jp-success-color2: #D7F274;
+  --jp-success-color3: #E6F598;
+  --jp-info-color0: #66D9EF;
+  --jp-info-color1: #82E9F8;
+  --jp-info-color2: #A0F0FF;
+  --jp-info-color3: #B8F5FF;
+
+  /* Cell Specific Styles */
+  --jp-cell-editor-active-background: #272822;
+  --jp-cell-editor-active-border-color: #7e974d;
+  --jp-cell-prompt-not-active-font-color: #75715E;
+
+  /* Notebook Specific Styles */
+  --jp-notebook-multiselected-color: rgba(33, 150, 243, 0.24);
+
+  /* Rendermime Styles */
+  --jp-rendermime-error-background: rgba(244, 67, 54, 0.28);
+  --jp-rendermime-table-row-background: #3E3D32;
+  --jp-rendermime-table-row-hover-background: rgba(3, 169, 244, 0.2);
+
+  /* Dialog Specific Styles */
+  --jp-dialog-background: rgba(0, 0, 0, 0.6);
+
+  /* Toolbar Specific Styles */
+  --jp-toolbar-border-color: #49483E;
+  --jp-toolbar-background: #3E3D32;
+  --jp-toolbar-active-background: #272822;
+
+  /* Input Field Styles */
+  --jp-input-active-background: #272822;
+  --jp-input-hover-background: #3E3D32;
+  --jp-input-background: #49483E;
+
+  /* General Editor Styles */
+  --jp-editor-selected-background: #3E3D32;
+  --jp-editor-selected-focused-background: rgba(33, 150, 243, 0.24);
+  --jp-editor-cursor-color: #F8F8F2;
+
+  /* Code Mirror Specific Styles */
+  --jp-mirror-editor-keyword-color: #F92672;
+  --jp-mirror-editor-atom-color: #AE81FF;
+  --jp-mirror-editor-number-color: #AE81FF;
+  --jp-mirror-editor-def-color: #66D9EF;
+  --jp-mirror-editor-variable-color: #F8F8F2;
+  --jp-mirror-editor-variable-2-color: #A6E22E;
+  --jp-mirror-editor-variable-3-color: #FD971F;
+  --jp-mirror-editor-punctuation-color: #F8F8F2;
+  --jp-mirror-editor-property-color: #F92672;
+  --jp-mirror-editor-operator-color: #F92672;
+  --jp-mirror-editor-comment-color: #75715E;
+  --jp-mirror-editor-string-color: #E6DB74;
+  --jp-mirror-editor-string-2-color: #E6DB74;
+  --jp-mirror-editor-meta-color: #75715E;
+  --jp-mirror-editor-qualifier-color: #F92672;
+  --jp-mirror-editor-builtin-color: #66D9EF;
+  --jp-mirror-editor-bracket-color: #F8F8F2;
+  --jp-mirror-editor-tag-color: #F92672;
+  --jp-mirror-editor-attribute-color: #A6E22E;
+  --jp-mirror-editor-header-color: #66D9EF;
+  --jp-mirror-editor-quote-color: #75715E;
+  --jp-mirror-editor-link-color: #66D9EF;
+  --jp-mirror-editor-error-color: #F92672;
+  --jp-mirror-editor-hr-color: #75715E;
+
+  /* RTC User Specific Colors */
+  --jp-collaborator-color1: #ad4a00;
+  --jp-collaborator-color2: #7b6a00;
+  --jp-collaborator-color3: #007e00;
+  --jp-collaborator-color4: #008772;
+  --jp-collaborator-color5: #0079b9;
+  --jp-collaborator-color6: #8b45c6;
+  --jp-collaborator-color7: #be208b;
+
+  /* Vega Extension Styles */
+  --jp-vega-background: #75715E;
+
+  /* Scrollbar Related Styles */
+  --jp-scrollbar-background-color: #3f4244;
+  --jp-scrollbar-thumb-color: 88, 96, 97; /* need to specify thumb color as an RGB triplet */
+}
